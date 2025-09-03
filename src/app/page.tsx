@@ -1,6 +1,7 @@
 // src/app/page.tsx
 'use client';
 
+import Astronaut from '@/components/Astronaut.jsx';
 import { useState, useEffect } from 'react';
 import './globals.css';
 
@@ -36,7 +37,7 @@ export default function Home() {
       </div>
 
       <main className="container">
-        {/* Hero Section */}
+        {/* Hero Section CON EL ASTRONAUTA 3D */}
         <section id="hero" className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
@@ -57,6 +58,9 @@ export default function Home() {
               </button>
             </div>
           </div>
+          
+          {/* AQUÍ SE INTEGRA EL ASTRONAUTA 3D */}
+          <Astronaut />
         </section>
 
         {/* Sobre Mí */}

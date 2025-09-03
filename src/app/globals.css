@@ -52,7 +52,7 @@
 }
 
 .astronaut {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 10px;
   animation: float 6s ease-in-out infinite;
 }
@@ -104,7 +104,7 @@
 .hero-title {
   font-size: 3.5rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .hero-subtitle {
@@ -365,6 +365,8 @@
   background: rgba(67, 97, 238, 0.2);
   color: #4361ee;
 }
+
+
 
 /* Responsive */
 @media (max-width: 768px) {
